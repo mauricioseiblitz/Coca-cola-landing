@@ -8,6 +8,8 @@ body {
     width: 100vw;
     height: 100vh;
     background: linear-gradient(#CF2425, #DA6062 50%,#DA6062 60%,#DA3B3F);
+    display: flex;
+    flex-direction: column;
 }
 
 .background-image {
@@ -20,4 +22,20 @@ body {
     bottom: 0;
     margin: auto;
     opacity: 50%;
+    z-index: -1;
+}
+
+header {
+    background-color: turquoise;
+    height: 100px;
+}
+
+main {
+    background-color: yellow;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: violet;
+    height: 100px;
 }
